@@ -47,13 +47,14 @@ timer 7 TC2-1  use read ppm
 Quad-X
 
 pin 9 FRONTL  M1CW        M2CCW  FRONTR pin 8
-
-              \         / 
+           
+           pin 9        pin 8
+              \    ^    / 
                 \ --- /        
                  |   |         
                 / --- \           
               /         \ 
-              
+          pin 6          pin 7
 pin 6 motor_BackL  M4 CCW      M3 CW  motor_BackR  pin 7
 
 ----------rx-----------  
